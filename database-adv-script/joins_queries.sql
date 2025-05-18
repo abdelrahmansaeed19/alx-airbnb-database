@@ -1,7 +1,7 @@
 
 USE AirBnB_Clone
 
-SELECT * FROM Booking JOIN users ON Booking.user_id = users.user_id
+SELECT * FROM Booking INNER JOIN users ON Booking.user_id = users.user_id
 
 SELECT * FROM property LEFT JOIN Review ON property.property_id = Review.property_id
 
