@@ -6,6 +6,7 @@ AS RANGE RIGHT FOR VALUES (
     '2025-01-01',
     '2026-01-01'
 );
+PARTITION BY ;
 
 -- 2. Create a partition scheme mapping all partitions to PRIMARY filegroup (adjust as needed)
 CREATE PARTITION SCHEME PS_Booking_StartDate
