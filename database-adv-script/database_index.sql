@@ -1,3 +1,5 @@
+EXPLAIN 
+ANALYZE
 CREATE INDEX idx_users_email ON users(email);
 CREATE INDEX idx_properties_host_id ON properties(host_id);
 CREATE INDEX idx_properties_property_id ON properties(property_id);
