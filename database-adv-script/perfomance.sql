@@ -21,6 +21,8 @@ WHERE b.user_id = u.user_id
   AND b.property_id = p.property_id
   AND pay.booking_id = b.booking_id;
 
+EXPLAIN;
+
 SELECT
     b.booking_id,
     b.start_date,
