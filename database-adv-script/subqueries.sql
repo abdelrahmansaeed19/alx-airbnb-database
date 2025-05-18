@@ -10,4 +10,4 @@ WHERE property_id IN (
 SELECT * FROM users WHERE user_id in 
 (select users.user_id from users JOIN Booking 
 ON users.user_id = Booking.user_id 
-Group by users.user_id having count(users.user_id) > 3);
+Group by users.user_id having COUNT(users.user_id) > 3);
